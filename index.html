@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soekiem Potatoes </title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+ <a href="#home" class="nav-logo">
+  <img src="img/Yellow Simple & Circular Food Logo.png" alt="Logo" class="logo-img">Soekiem Potatoes</a>
+  <ul class="nav-links">
+    <li><a href="#home" class="nav-link">Home</a></li>
+    <li><a href="#menu" class="nav-link">Menu</a></li>
+    <li><a href="#tentang" class="nav-link">Tentang</a></li>
+    <li><a href="#kontak" class="nav-link">Kontak</a></li>
+  </ul>
+  <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#home" class="mobile-link">Home</a></li>
+    <li><a href="#menu" class="mobile-link">Menu</a></li>
+    <li><a href="#tentang" class="mobile-link">Tentang</a></li>
+    <li><a href="#kontak" class="mobile-link">Kontak</a></li>
+  </ul>
+</div>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-bg-circles"></div>
+  <div class="hero-inner">
+    <div class="hero-badge">🔥 Kentang Premium Kekinian</div>
+    <h1 class="hero-title">Kentang <span class="highlight">Nagih</span>,<br/>Harga Hemat!</h1>
+    <p class="hero-sub">Lezat, renyah, dan instagramable. Cocok buat semua kalangan terutama anak muda!</p>
+    <div class="hero-actions">
+      <a href="#menu" class="btn-primary">Lihat Menu</a>
+      <a href="#kontak" class="btn-outline">Pesan Sekarang</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num" data-target="3">0</div>
+        <div class="stat-label">Varian Rasa</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">15rb</div>
+        <div class="stat-label">Mulai Dari</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-target="100" data-suffix="%">0%</div>
+        <div class="stat-label">Kentang Asli</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WAVE -->
+<div class="wave-sep">
+  <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#FFF8EC"/>
+  </svg>
+</div>
+
+<!-- MENU -->
+<section id="menu">
+  <div class="menu-header reveal">
+    <div class="section-tag">Menu Kami</div>
+    <h2 class="section-title">Pilih Rasa Favoritmu</h2>
+    <p class="section-sub">Semua varian dibuat dari kentang pilihan yang digoreng crispy sempurna</p>
+  </div>
+  <div class="menu-grid">
+    <div class="menu-card reveal" data-delay="0">
+      <span class="menu-card-icon">🌶️</span>
+      <div class="menu-card-name">Balado</div>
+      <p class="menu-card-desc">Pedas manis yang nagih, bumbu balado autentik bikin ketagihan terus</p>
+      <div class="menu-card-price">Rp 15.000</div>
+      <div class="menu-card-badge">Terlaris</div>
+    </div>
+    <div class="menu-card reveal" data-delay="100">
+      <span class="menu-card-icon">🧀</span>
+      <div class="menu-card-name">Keju</div>
+      <p class="menu-card-desc">Gurih creamy dengan taburan keju melimpah, cocok buat semua usia</p>
+      <div class="menu-card-price">Rp 15.000</div>
+    </div>
+    <div class="menu-card reveal" data-delay="200">
+      <span class="menu-card-icon">🥩</span>
+      <div class="menu-card-name">BBQ</div>
+      <p class="menu-card-desc">Smoky BBQ yang khas, perpaduan manis dan gurih yang sempurna</p>
+      <div class="menu-card-price">Rp 15.000</div>
+    </div>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section id="keunggulan">
+  <div class="keunggulan-inner">
+    <div class="keunggulan-left reveal">
+      <div class="section-tag keunggulan-tag">Kenapa Kami?</div>
+      <h2 class="section-title section-title-light">Beda dari yang Lain</h2>
+      <p class="section-sub section-sub-light">Kami hadir dengan kualitas premium di harga yang tetap ramah di kantong</p>
+    </div>
+    <div class="feature-list">
+      <div class="feature-item reveal" data-delay="0">
+        <div class="feature-icon">🥔</div>
+        <div class="feature-text">
+          <h4>Kentang Segar Pilihan</h4>
+          <p>Dipilih dari kentang berkualitas tinggi setiap harinya</p>
+        </div>
+      </div>
+      <div class="feature-item reveal" data-delay="100">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-text">
+          <h4>Digoreng Fresh</h4>
+          <p>Dimasak saat order, selalu renyah dan panas pas di tangan kamu</p>
+        </div>
+      </div>
+      <div class="feature-item reveal" data-delay="200">
+        <div class="feature-icon">💰</div>
+        <div class="feature-text">
+          <h4>Harga Super Terjangkau</h4>
+          <p>Premium tapi tetap hemat, mulai dari Rp 8.000 aja!</p>
+        </div>
+      </div>
+      <div class="feature-item reveal" data-delay="300">
+        <div class="feature-icon">📸</div>
+        <div class="feature-text">
+          <h4>Instagramable Banget</h4>
+          <p>Tampilan menarik yang sayang kalau nggak di-post di sosmed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="tentang">
+  <div class="about-inner">
+    <div class="about-visual reveal">🍟</div>
+    <div class="about-text reveal">
+      <div class="section-tag">Tentang Kami</div>
+      <h2 class="section-title">Soekiem Potatoes</h2>
+      <p class="section-sub about-desc">Brand makanan yang menghadirkan kentang goreng premium dengan rasa kekinian. Cocok untuk semua kalangan, terutama anak muda yang ingin camilan enak tanpa harus keluar banyak uang.</p>
+      <div class="about-highlight">
+        <div class="about-highlight-item">
+          <strong>3+</strong>
+          <span>Varian Rasa</span>
+        </div>
+        <div class="about-highlight-item">
+          <strong>Lokal</strong>
+          <span>Bisnis Asli Indonesia</span>
+        </div>
+        <div class="about-highlight-item">
+          <strong>Fresh</strong>
+          <span>Dimasak Setiap Hari</span>
+        </div>
+        <div class="about-highlight-item">
+          <strong>Murah</strong>
+          <span>Mulai Rp 15.000</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak">
+  <div class="kontak-inner">
+    <div class="section-tag reveal">Kontak</div>
+    <h2 class="section-title reveal">Yuk, Order Sekarang!</h2>
+    <p class="section-sub kontak-sub reveal">Hubungi kami lewat WhatsApp atau kunjungi langsung</p>
+    <div class="contact-cards">
+      <div class="contact-card reveal" data-delay="0">
+        <span class="contact-card-icon">📍</span>
+        <div class="contact-card-label">Lokasi</div>
+        <div class="contact-card-value">Sumbang, Banteran</div>
+      </div>
+      <div class="contact-card reveal" data-delay="100">
+        <span class="contact-card-icon">📱</span>
+        <div class="contact-card-label">WhatsApp</div>
+        <div class="contact-card-value">0895322115324</div>
+      </div>
+    </div>
+    <a href="https://wa.me/62895322115324" class="wa-btn" target="_blank">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+      Chat via WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 <strong>Soekiem Potatoes</strong> · Sumbang, Banteran · All rights reserved 🍟</p>
+</footer>
+
+<!-- BACK TO TOP BUTTON -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<!-- TOAST NOTIFICATION -->
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
